@@ -1,37 +1,52 @@
 {
-	"name": "سـورس ايــرور",
-	"description": "اقوم بي تنصيب بوت استخراج جلسات بيروجرام",
-	"logo": "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg",
-	"keywords": [
-		"telegram",
-		"bot",
-		"python",
-		"telethon"
-	],
-    "env": {
-        "ELHYBA": {
-            "description": "توكن البوت",
-            "value": ""
-        },
-        "API_HASH": {
-            "description": "الايبي هاش",
-            "value": ""
-        },
-        "API_ID": {
-            "description": "الايبي ايدي",
-            "value": ""
-        },
-        "OWNER": {
-            "description": "ايدي المطور",
-            "value": ""
-	   }
-	},
-	"buildpacks": [
-		{
-			"url": "heroku/python"
-		}
-	]
+  "name": "سـورس ايــرور",
+  "description": "اقوم بي تنصيب بوت استخراج جلسات بيروجرام",
+  "logo": "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg",
+  "keywords": [
+    "telegram",
+    "bot",
+    "python",
+    "pyrogram"
+  ],
+    "buildpacks": [{
+    "url": "heroku/python"
+  }],
+  "repository": "https://github.com/lotusabdo/Uort.git",
+  "env": {
+    "ENVIRONMENT": {
+      "description": "Don't change ANYTHING.",
+      "required": true,
+      "value": "ANYTHING"
+    },
+    "API_ID": {
+      "description": "Get this value from my.telegram.org/apps.",
+      "required": true,
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from my.telegram.org/apps.",
+      "required": true,
+      "value": ""
+    },
+    "OWNER_ID": {
+      "description": "Telegram id of the person who will known as owner of the bot.",
+      "required": true,
+      "value": ""
+    },
+    "MONGO_DB_URI": {
+      "description": "Get this value from cloud.mongodb.com",
+      "required": true,
+      "value": ""
+    },
+    "MUST_JOIN": {
+      "description": "Username of a group or channel for which you want to set force sub.(without @)",
+      "required": true,
+      "value": "l2_2Y"
+    },
+    "BOT_TOKEN": {
+      "description": "Get this value from @BotFather",
+      "required": true,
+      "value": ""
+    }
+  }
 }
-
-
-
