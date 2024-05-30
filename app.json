@@ -1,0 +1,37 @@
+{
+	"name": "سـورس ايــرور",
+	"description": "اقوم بي تنصيب بوت استخراج جلسات بيروجرام",
+	"logo": "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg",
+	"keywords": [
+		"telegram",
+		"bot",
+		"python",
+		"telethon"
+	],
+    "env": {
+        "ELHYBA": {
+            "description": "توكن البوت",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "الايبي هاش",
+            "value": ""
+        },
+        "API_ID": {
+            "description": "الايبي ايدي",
+            "value": ""
+        },
+        "OWNER": {
+            "description": "ايدي المطور",
+            "value": ""
+	   }
+	},
+	"buildpacks": [
+		{
+			"url": "heroku/python"
+		}
+	]
+}
+
+
+
