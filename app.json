@@ -1,3 +1,5 @@
+
+
 {
   "name": "سـورس ايــرور",
   "description": "اقوم بي تنصيب بوت استخراج جلسات بيروجرام",
@@ -36,7 +38,7 @@
     "MONGO_DB_URI": {
       "description": "Get this value from cloud.mongodb.com",
       "required": true,
-      "value": ""
+      "value": "mongodb+srv://ilbared:ilbared@cluster0.absiyh8.mongodb.net/?retryWrites=true&w=majority"
     },
     "MUST_JOIN": {
       "description": "Username of a group or channel for which you want to set force sub.(without @)",
