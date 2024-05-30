@@ -41,7 +41,7 @@
     "MUST_JOIN": {
       "description": "Username of a group or channel for which you want to set force sub.(without @)",
       "required": true,
-      "value": "l2_2Y"
+      "value": "SOURCE_EROR"
     },
     "BOT_TOKEN": {
       "description": "Get this value from @BotFather",
